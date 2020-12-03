@@ -1,0 +1,19 @@
+<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-info border-bottom shadow-sm">
+  <h5 class="my-0 mr-md-auto font-weight-normal h5-logo" routerLink="/">Meeting Room <fa-icon [icon]="faComments"></fa-icon></h5>
+
+  <div class="dropdown">
+      <button class="btn btn-warning dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Salas de Reunião
+      </button>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item a"  routerLink="/salas-list" >Cadastrar Salas</a>
+        <a class="dropdown-item a"  routerLink="/agendamento">Agendamento de Sala</a>
+      </div>
+  </div>
+</div>
+
+<div class="logo-smarapd" >
+  <img src="../assets/img/images.png" width="550" height="250">
+</div>
+  
+<router-outlet></router-outlet>
